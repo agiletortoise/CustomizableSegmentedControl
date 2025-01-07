@@ -5,7 +5,10 @@ import PackageDescription
 
 let package = Package(
     name: "CustomizableSegmentedControl",
-    platforms: [.iOS(.v14)],
+    platforms: [
+        .iOS(.v16),
+        .macOS(.v13)
+    ],
     products: [
         .library(
             name: "CustomizableSegmentedControl",
